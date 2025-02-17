@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ViewApp</string>
+    <string name="message">Hello Android!</string>
+    <string name="welcome_message">Bine Ati venit %1$s! e deja %2$d : %3$d</string>
+</resources>
