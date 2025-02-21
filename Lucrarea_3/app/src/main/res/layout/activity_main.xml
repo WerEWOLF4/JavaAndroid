@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/rgStudyForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbEvening"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fr" />
+
+        <RadioButton
+            android:id="@+id/rbDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zi" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spSpecializations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/ivSpecializationImage"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher_background" />
+
+    <EditText
+        android:id="@+id/etNewLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adauga o limba" />
+
+    <Button
+        android:id="@+id/btnAddLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adauga" />
+
+    <ListView
+        android:id="@+id/lvStudies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+    <ListView
+        android:id="@+id/lvLanguages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/btnShowData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Afiseaza toate datele" />
+
+</LinearLayout>
