@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- RecyclerView for displaying waiting list -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewWaitingList"
+        android:layout_width="match_parent"
+        android:layout_height="542dp"
+        android:layout_marginTop="16dp"
+        android:scrollbars="vertical" />
+
+    <!-- Empty List Message (Initially Hidden) -->
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No waiting list items available."
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:padding="10dp"
+        android:textColor="@color/colorAccent" />
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/btnBackToProducts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Back to Products"
+        android:textSize="16sp" />
+
+</LinearLayout>

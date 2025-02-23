@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cartRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="529dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="5dp"
+            android:layout_height="68dp"
+            android:layout_weight="1"
+            android:text="Confirm Order" />
+
+        <Button
+            android:id="@+id/btnBackToProducts"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Back to Products" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+            android:layout_weight="1"
+            android:text="Cancel Order" />
+
+    </LinearLayout>
+</LinearLayout>

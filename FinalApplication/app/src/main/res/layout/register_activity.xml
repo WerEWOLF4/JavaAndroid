@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Câmpul de introducere a username-ului -->
+    <EditText
+        android:id="@+id/edtUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:hint="Introduceți username"
+        android:inputType="text"/>
+
+    <!-- Câmpul de introducere a parolei -->
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Introduceți parola"
+        android:inputType="textPassword"
+        android:padding="12dp"/>
+
+    <!-- Butonul pentru înregistrare -->
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Înregistrează-te" />
+
+    <!-- Butonul pentru a naviga către LoginActivity -->
+    <Button
+        android:id="@+id/btnGoToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ai deja un cont? Autentifică-te" />
+</LinearLayout>
